@@ -85,7 +85,7 @@ package tugasPerpus;
             );
             return welcome;
         }
-        
+
         public String interfaceKategori (String[][] buku) {
             String result = "";
             for (int i = 1; i <= 5; i++) {
@@ -101,8 +101,5 @@ package tugasPerpus;
             }
             return result;
         }
-
-
-    
     }
     
