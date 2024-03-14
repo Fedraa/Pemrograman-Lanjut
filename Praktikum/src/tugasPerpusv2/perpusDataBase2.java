@@ -109,9 +109,14 @@ public class perpusDataBase2 {
                     + "\nISBN: " + buku[i - 1][4]
                     + "\nJumlah Halaman: " + buku[i-1][5]
                     + "\nHarga: " + buku[i-1][6]
-                    + "\nSinopsis: " + buku[i-1][7] + "\n";
+                    + "\nSinopsis: " + buku[i-1][7]
+                    + "\nJumlah kata dalam sinopsis: " + hitungSinopsis(buku[i-1][7]) + " kata" + "\n";
         }
         return result;
+    }
+    public int hitungSinopsis(String sinopsis){
+        String[] kataSinopsis = sinopsis.split(" ");
+        return kataSinopsis.length;
     }
 }
 

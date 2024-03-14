@@ -1,5 +1,4 @@
 package tugasPerpusv2;
-
 import java.util.*;
 
 public class perpusUI2 {
@@ -8,7 +7,7 @@ public class perpusUI2 {
         perpusDataBase2 buku = new perpusDataBase2();
         int kategori;
         String menuLain;
-
+        
         do {
             System.out.print(buku.selamatDatang());
             kategori = input.nextInt();
