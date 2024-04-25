@@ -49,7 +49,7 @@ public class Pekerja extends Manusia{
             } else if (lamaBekerja > 10) {
                 return 0.15 * gaji;
             }
-            return bonus  + (jumlahAnak * 20); 
+            return bonus  + (jumlahAnak * 20);      
         }
 
         public double getPendapatan() {
@@ -58,6 +58,6 @@ public class Pekerja extends Manusia{
 
         public String toString() { 
             String masukBekerja = tahunMasuk.format(DateTimeFormatter.ofPattern("d M yyyy"));
-            return super.toString() + String.format("Tahun Masuk\t\t: %s\nJumlah Anak\t\t: %d\nGaji\t\t\t: $%.2f", masukBekerja, jumlahAnak, gaji) + "\n";
+            return super.toString() + String.format("Tahun Masuk\t\t: %s\nJumlah Anak\t\t: %d\nGaji\t\t\t: $%.1f", masukBekerja, jumlahAnak, gaji) + "\n";
         }
 }
