@@ -6,7 +6,7 @@ public class Main {
         System.out.println("\n==========" + " KELAS MANUSIA " + "==========" + "\n");
 
         Manusia manusia1 = new Manusia("Adam", "7294185306149281", true, true);
-        System.out.println(manusia1); //Laki-laki telah menikah
+        System.out.println(manusia1);
         
         Manusia manusia2 = new Manusia("Hawa", "7294185706149282", false, true);
         System.out.println(manusia2); 
