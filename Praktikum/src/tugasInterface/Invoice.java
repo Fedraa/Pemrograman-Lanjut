@@ -16,9 +16,9 @@ public class Invoice implements Payable {
     }
 
     public String toString() {
-        return "\nProduk\t: " + productName 
-                + "\nJumlah\t: " + quantity + " pcs"
-                + "\nHarga\t: Rp" + pricePerItem;
+        return "\nNama Produk\t: " + productName 
+                + "\nJumlah\t\t: " + quantity + " pcs"
+                + "\nHarga\t\t: Rp" + pricePerItem;
     }
     
 }
