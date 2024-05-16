@@ -11,7 +11,7 @@ public class Invoice implements Payable {
         this.pricePerItem = pricePerItem;
     }
 
-    public double getPaymentAmount() {
+    public double getPayableAmount() {
         return quantity * pricePerItem;
     }
 

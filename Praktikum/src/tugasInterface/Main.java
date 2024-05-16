@@ -45,7 +45,7 @@ public class Main {
 
         System.out.println(employee.toString());
         employee.displayInvoice();
-        System.out.println("\nTotal Akhir Gaji\t: Rp" + employee.getPaymentAmount());
+        System.out.println("\nPendapatan Bersih\t: Rp" + employee.getPayableAmount());
 
         input.close();
 

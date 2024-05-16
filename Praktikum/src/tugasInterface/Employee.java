@@ -16,9 +16,9 @@ public class Employee implements Payable {
     }
 
     double totalBelanja = 0;
-    public double getPaymentAmount() {
+    public double getPayableAmount() {
         for (Invoice invoice : invoices) {
-            totalBelanja += invoice.getPaymentAmount();
+            totalBelanja += invoice.getPayableAmount();
         }
         return salaryPerMonth - totalBelanja;
     }
