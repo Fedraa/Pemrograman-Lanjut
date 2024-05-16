@@ -5,10 +5,6 @@ public class Invoice implements Payable {
     int quantity;
     int pricePerItem;
 
-    public Invoice(){
-        
-    }
-
     public Invoice(String productName, int quantity, int pricePerItem) {
         this.productName = productName;
         this.quantity = quantity;
