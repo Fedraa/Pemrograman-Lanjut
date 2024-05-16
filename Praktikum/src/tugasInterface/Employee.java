@@ -15,12 +15,12 @@ public class Employee implements Payable {
         this.invoices = invoices;
     }
 
-    double totalBelanjaan = 0;
+    double totalBelanja = 0;
     public double getPaymentAmount() {
         for (Invoice invoice : invoices) {
-            totalBelanjaan += invoice.getPaymentAmount();
+            totalBelanja += invoice.getPaymentAmount();
         }
-        return salaryPerMonth - totalBelanjaan;
+        return salaryPerMonth - totalBelanja;
     }
 
     public void displayInvoice() {
