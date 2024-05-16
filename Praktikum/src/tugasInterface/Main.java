@@ -48,11 +48,5 @@ public class Main {
         System.out.println("\nPendapatan Bersih\t: Rp" + employee.getPayableAmount());
 
         input.close();
-
-
-
-
-
-    }
-    
+    } 
 }
