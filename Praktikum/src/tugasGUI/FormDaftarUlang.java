@@ -82,9 +82,9 @@ public class FormDaftarUlang extends JFrame{
         btnSubmit.addActionListener(new ActionListener(){
             public void actionPerformed(java.awt.event.ActionEvent e){
                 if(isInputValid()){
-                    int konfirmasi = JOptionPane.showConfirmDialog(null, "Apakah data yang anda masukkan sudah benar?", "Konfirmasi Data", JOptionPane.YES_NO_OPTION);
+                    int konfirmasi = JOptionPane.showConfirmDialog(null, "Apakah Anda yakin data yang Anda isi sudah benar?", "Konfirmasi Data", JOptionPane.OK_CANCEL_OPTION);
                     boolean windowKonfirmasi = true;
-                    if (konfirmasi != JOptionPane.YES_OPTION) {
+                    if (konfirmasi != JOptionPane.OK_OPTION) {
                         windowKonfirmasi = false;
                     }else if(windowKonfirmasi){
                         JOptionPane.showMessageDialog(null, "Data mahasiswa baru berhasil disimpan", "Informasi", JOptionPane.INFORMATION_MESSAGE);
